@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.account-size {
+  padding: 5px;
+  background-color: green;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.inputs {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.key-value-card {
+  background-color: tomato;
+  height: 200px;
+  width: fit-content;
+  margin: 4px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.key {
+  font-size: 25px;
+  color: white;
+}
+
+.value {
+  font-size: 15px;
+  color: gray;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 2 columns with equal width */
+  grid-gap: 10px;
+  /* Adjust the gap between the cards as needed */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* To evenly space the items */
+  gap: 10px;
+  /* Adjust the gap between the cards as needed */
+}
+
+.card-container>div {
+  flex: 1;
+  /* Allow the cards to grow equally within the available space */
+  min-width: 200px;
+  /* Adjust the minimum width of each card as needed */
+}
+input{
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+select{
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+}
